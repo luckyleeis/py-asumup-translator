@@ -1,0 +1,81 @@
+API_URL = "https://www2.deepl.com/jsonrpc"
+
+MAGIC_NUMBER = int("CAFEBABE", 16)
+
+SUPPORTED_LANGUAGES = [
+    { "code": 'BG', "language": 'Bulgarian' },
+    { "code": 'ZH', "language": 'Chinese' },
+    { "code": 'CS', "language": 'Czech' },
+    { "code": 'DA', "language": 'Danish' },
+    { "code": 'NL', "language": 'Dutch' },
+    { "code": 'EN', "language": 'English' },
+    { "code": 'ET', "language": 'Estonian' },
+    { "code": 'FI', "language": 'Finnish' },
+    { "code": 'FR', "language": 'French' },
+    { "code": 'DE', "language": 'German' },
+    { "code": 'EL', "language": 'Greek' },
+    { "code": 'HU', "language": 'Hungarian' },
+    { "code": 'ID', "language": 'Indonesian' },
+    { "code": 'IT', "language": 'Italian' },
+    { "code": 'JA', "language": 'Japanese' },
+    { "code": 'KO', "language": 'Korean' },
+    { "code": 'LV', "language": 'Latvian' },
+    { "code": 'LT', "language": 'Lithuanian' },
+    { "code": 'NB', "language": 'Norwegian' },
+    { "code": 'PL', "language": 'Polish' },
+    { "code": 'PT', "language": 'Portuguese' },
+    { "code": 'RO', "language": 'Romanian' },
+    { "code": 'RU', "language": 'Russian' },
+    { "code": 'SK', "language": 'Slovak' },
+    { "code": 'SL', "language": 'Slovenian' },
+    { "code": 'ES', "language": 'Spanish' },
+    { "code": 'SV', "language": 'Swedish' },
+    { "code": 'TR', "language": 'Turkish' },
+    { "code": 'UK', "language": 'Ukrainian' }
+]
+
+SUPPORTED_FORMALITY_TONES = ["formal", "informal"]
+
+
+
+sss = [
+    {"code": "ar", "language": "Arabic"},
+    {"code": "bg", "language": "Bulgarian"},
+    {"code": "ca", "language": "Catalan"},
+    {"code": "zh-cn", "language": "Chinese (Simplified)"},
+    {"code": "zh-tw", "language": "Chinese (Traditional)"},
+    {"code": "hr", "language": "Croatian"},
+    {"code": "cs", "language": "Czech"},
+    {"code": "da", "language": "Danish"},
+    {"code": "nl", "language": "Dutch"},
+    {"code": "et", "language": "Estonian"},
+    {"code": "fi", "language": "Finnish"},
+    {"code": "fr", "language": "French"},
+    {"code": "de", "language": "German"},
+    {"code": "el", "language": "Greek"},
+    {"code": "ht", "language": "Haitian Creole"},
+    {"code": "he", "language": "Hebrew"},
+    {"code": "hu", "language": "Hungarian"},
+    {"code": "id", "language": "Indonesian"},
+    {"code": "it", "language": "Italian"},
+    {"code": "ja", "language": "Japanese"},
+    {"code": "ko", "language": "Korean"},
+    {"code": "lv", "language": "Latvian"},
+    {"code": "lt", "language": "Lithuanian"},
+    {"code": "nb", "language": "Norwegian"},
+    {"code": "fa", "language": "Persian"},
+    {"code": "pl", "language": "Polish"},
+    {"code": "pt-br", "language": "Portuguese (Brazil)"},
+    {"code": "pt-pt", "language": "Portuguese (Portugal)"},
+    {"code": "ro", "language": "Romanian"},
+    {"code": "ru", "language": "Russian"},
+    {"code": "sr", "language": "Serbian"},
+    {"code": "sk", "language": "Slovak"},
+    {"code": "sl", "language": "Slovenian"},
+    {"code": "es", "language": "Spanish"},
+    {"code": "sv", "language": "Swedish"},
+    {"code": "th", "language": "Thai"},
+    {"code": "tr", "language": "Turkish"},
+    {"code": "uk", "language": "Ukrainian"},
+    {"code": "vi", "language": "Vietnamese"}
+]

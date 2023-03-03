@@ -1,0 +1,20 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "files.exclude": {
+        "**/node_modules": true,
+        "**/.next": true,
+        "**/out": true,
+        "**/build": true,
+        "**/asumup_translator.egg-info": true,
+        "**/dist": true,
+        "**/docs": true,
+        "**/tests": true,
+        "**/.coveragerc": true,
+        "**/.flake8": true,
+        "**/LICENSE": true,
+        "**/.gitignore": true,
+        "**/testing-requirements.txt": true
+    },
+    "workbench.colorTheme": "Darcula Pycharm with Dark GUI",
+    "python.languageServer": "Pylance"
+}
